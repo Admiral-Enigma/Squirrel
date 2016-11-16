@@ -1,0 +1,20 @@
+{
+  "name": "squirrel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "face.js",
+  "scripts": {
+    "test": "node Voice.js",
+    "build": "browserify stuff.js -o bundle.js"
+  },
+  "author": "Lord Squirrel",
+  "license": "MIT",
+  "dependencies": {
+    "artyom.js": "^1.0.1",
+    "express": "^4.14.0",
+    "say": "^0.11.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.6"
+  }
+}
