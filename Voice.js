@@ -18,7 +18,14 @@ artyom.addCommands([
     action: function(i){
         artyom.say("Good night Sir");
     }
-  }
+  },
+  {
+      indexes: ["Stop","Stop the music","Squirrel stop the music"],
+      action: function(i){
+          artyom.say("Of course Sir");
+          createjs.Sound.stop();
+      }
+    }
 ]);
 
 
