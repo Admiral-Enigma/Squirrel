@@ -7,7 +7,7 @@
     "test": "node Voice.js",
     "build": "browserify stuff.js -o bundle.js"
   },
-  "author": "Lord Squirrel",
+  "author": "OxCart",
   "license": "MIT",
   "dependencies": {
     "artyom.js": "^1.0.1",
